@@ -84,8 +84,16 @@ html{
   margin: 0 auto;  
 }
 
+
+
+/* Header styles start*/
+
 .header{
-  background-color: black;
+  background-color: #EDF2EC; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .header_wrapper{
@@ -93,6 +101,7 @@ html{
   flex-wrap: wrap;
   align-items: flex-end;
   justify-content: space-between;
+  top: 42px;
 }
 
 .header_list{
@@ -125,3 +134,32 @@ html{
   line-height: 50px;
   color:#E06733;
 }
+
+.header_link:hover, .header_link:focus, .header_link:active{
+  opacity:75%
+}
+
+/* Header styles end*/
+
+/*Welcome section styles start*/
+
+.welcome{
+  height:  ;
+  background:   ;
+  background-size:  ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Welcome section styles start*/
+
+
