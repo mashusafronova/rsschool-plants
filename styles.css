@@ -85,5 +85,43 @@ html{
 }
 
 .header{
+  background-color: black;
+}
 
+.header_wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.header_list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header_item{
+  margin-right: 46px;
+}
+
+.header_item:last-child { 
+  margin-right: 0;
+}
+
+.header_link{
+ font-family: 'Inika';
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 50px;
+ color: #010201;
+ text-decoration: none;
+}
+
+.header_item_home{
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 50px;
+  color:#E06733;
 }
