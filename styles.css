@@ -24,4 +24,9 @@
          url('../fonts/inika-v21-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/inika-v21-latin-700.svg#Inika') format('svg'); /* Legacy iOS */
   }
-  
+html{
+    box-sizing: border-box;
+}
+*,*::before, *::after{
+    box-sizing: inherit;
+}
